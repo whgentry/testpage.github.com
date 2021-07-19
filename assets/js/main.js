@@ -232,23 +232,6 @@
   });
 
   /**
-   * Project details slider
-   */
-  // new Swiper('.project-details-slider', {
-  //   speed: 400,
-  //   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: true
-  //   },
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     type: 'bullets',
-  //     clickable: true
-  //   }
-  // });
-
-  /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
