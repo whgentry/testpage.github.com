@@ -50,8 +50,8 @@
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Awards</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -291,16 +291,18 @@
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-undegrad">Undergraduate</li>
+              <li data-filter=".filter-personal">Personal</li>
+              <!-- <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-web">Web</li> -->
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-undegrad">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/project-natcar.jpg" class="img-fluid" alt="Project NATCAR">
               <div class="portfolio-info">
@@ -314,7 +316,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -424,7 +426,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -480,7 +482,7 @@
     </section>End Facts Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -571,7 +573,7 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>End Services Section -->
 
     <!-- ======= Awards Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -586,26 +588,32 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/logos/texas-instruments-logo.jpg" class="testimonial-img" alt="">
-                <h3>Texas Instruments Scholar Award</h3>
-                <h4>Texas Instruments 2018</h4>
+                <img src="assets/img/logos/ucdavis-seal.png" class="testimonial-img" alt="">
+                <h3>1st Place Autonomous Vehicle Competition</h3>
+                <h4>UC Davis (NATCAR) 2019</h4>
                 <p>
-                  <!-- <i class="bx bxs-quote-alt-left quote-icon-left"></i> -->
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
+                  In an Autonomous Vehicle competition, my team won 1st place.
+                  The competition included teams from University of California
+                  Davis, Berkeley, Santa Barbara and San Diego. Read the UC Davis ECE Department article <a
+                  href="https://ece.ucdavis.edu/news/uc-davis-wins-2019-natcar-competition">
+                  here</a>.
                 </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/logos/ucdavis-seal.png" class="testimonial-img" alt="">
-                <h3>1st Place Autonomous Vehicle Competition</h3>
-                <h4>UC Davis (NATCAR) 2019</h4>
+                <img src="assets/img/logos/texas-instruments-logo.jpg" class="testimonial-img" alt="">
+                <h3>Texas Instruments Scholar Award</h3>
+                <h4>Texas Instruments 2018</h4>
                 <p>
-                  <!-- <i class="bx bxs-quote-alt-left quote-icon-left"></i> -->
-                  In a competition between many University of California Schools, my team won first place. TODO
-                  <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
+                  Scholarship recipients are sophomore and junior students
+                  studying electrical engineering, computer engineering, or
+                  computer science and engineering. Scholars also have strong
+                  academic records and demonstrate an aptitude for hands-on
+                  engineering projects. Read the UC Davis ECE Department article <a
+                  href="https://ece.ucdavis.edu/news/texas-instruments-supports-engineering-scholarships-hands-learning">
+                  here</a>.
                 </p>
               </div>
             </div><!-- End testimonial item -->
@@ -625,33 +633,31 @@
           <h2>Contact</h2>
         </div>
 
-        <div class="row mt-1">
+        <div class="info">
+          <div class="row justify-content-md-center">
+            <div class="col-lg-3 address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>Santa Barbara, CA</p>
+            </div>
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Santa Barbara, CA</p>
-              </div>
+            <div class="col-lg-3 phone">
+              <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>+1 530 526 7512</p>
+            </div>
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p><a href="mailto:williamharrisgentry@gmail.com">williamharrisgentry@gmail.com</a></p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 530 526 7512</p>
-              </div>
-
+            <div class="col-lg-3 email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p><a href="mailto:williamharrisgentry@gmail.com">williamharrisgentry@gmail.com</a></p>
             </div>
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+        </div>
+
+          <!-- <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -676,7 +682,7 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
-          </div>
+          </div> -->
 
         </div>
 
